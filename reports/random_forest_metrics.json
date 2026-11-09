@@ -1,0 +1,50 @@
+{
+  "hyperparameters": {
+    "n_estimators": 200,
+    "max_depth": 20,
+    "min_samples_split": 5,
+    "min_samples_leaf": 2,
+    "max_features": "sqrt",
+    "class_weight": "balanced"
+  },
+  "val_metrics": {
+    "accuracy": 0.9992,
+    "precision": 0.9947229551451188,
+    "recall": 1.0,
+    "f1": 0.9973544973544973,
+    "roc_auc": 0.9999962517382565,
+    "pr_auc": 0.999978966671754,
+    "confusion_matrix": [
+      [
+        2121,
+        2
+      ],
+      [
+        0,
+        377
+      ]
+    ],
+    "fpr": 0.0009420631182289214,
+    "fnr": 0.0
+  },
+  "test_metrics": {
+    "accuracy": 0.997,
+    "precision": 0.9940425531914894,
+    "recall": 0.9957374254049446,
+    "f1": 0.9948892674616695,
+    "roc_auc": 0.9995455465217722,
+    "pr_auc": 0.9994526220498767,
+    "confusion_matrix": [
+      [
+        2820,
+        7
+      ],
+      [
+        5,
+        1168
+      ]
+    ],
+    "fpr": 0.002476123098691192,
+    "fnr": 0.004262574595055414
+  }
+}
